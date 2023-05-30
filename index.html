@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Приглашение на свадьбу</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&family=Roboto:wght@400;900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body class="body">
+
+	<img class="body__background-2" src="img/background_2.png" alt="">
+	<img class="body__background" src="img/background.png" alt="">
+
+  <header class="header animate__animated animate__fadeInDown">
+    <div class="container">
+      <ul class="header__menu">
+        <li class="header__item">
+          <a href="#section-mainscreen" class="header__link">Сколько осталось</a>
+        </li>
+        <li class="header__item">
+          <a href="#section-invitation" class="header__link">Приглашение</a>
+        </li>
+        <li class="header__item">
+          <a href="#section-shedule" class="header__link">Расписание</a>
+        </li>
+        <li class="header__item">
+          <a href="#section-gifts" class="header__link">О подарках</a>
+        </li>
+				<li class="header__item">
+          <a href="#section-dress" class="header__link">Дресс-код</a>
+        </li>
+        <li class="header__item _with-icon">
+          <img src="img/i_tel.png" alt="" class="header__icon">
+          <a href="tel:79536616819" class="header__link _bold">+7 (953) 661 68-19</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+	<section class="mainscreen" id="section-mainscreen">
+		<div class="container">
+			<div class="mainscreen__content">
+				<p class="mainscreen__text _big animate__animated animate__fadeInUp">Приглашение на свадьбу</p>
+				<h1 class="mainscreen__h1 animate__animated animate__fadeInUp">Андрей и Вероника</h1>
+				<div class="mainscreen__timer timer animate__animated animate__fadeInUp" id="js-timer">
+					<div class="timer__item">
+						<span class="js-days timer__time"></span>
+						<span class="timer__text">Дней</span>
+					</div>
+					<div class="timer__item">
+						<span class="js-hours timer__time"></span>
+						<span class="timer__text">Часов</span>
+					</div>
+					<div class="timer__item">
+						<span class="js-minutes timer__time"></span>
+						<span class="timer__text">Минут</span>
+					</div>
+					<div class="timer__item">
+						<span class="js-seconds timer__time"></span>
+						<span class="timer__text">Секунд</span>
+					</div>
+				</div>
+				<a href="#section-invitation" class="mainscreen__scroll animate__animated animate__fadeInUp">
+					<span class="mainscreen__icon">↓</span>
+					<span class="mainscreen__text">Узнать больше</span>
+				</a>
+			</div>
+			<div class="mainscreen__image animate__animated animate__fadeInUp">
+				<img src="img/bg_mainscreen.jpg" alt="" class="mainscreen__img">
+			</div>
+		</div>
+	</section>
+
+	<section class="invitation" id="section-invitation">
+		<div class="container">
+			<div class="invitation__image animate__animated">
+				<img src="img/im_invitation.png" alt="" class="invitation__img">
+			</div>
+			<div class="invitation__content">
+				<h2 class="invitation__h2 animate__animated">Приглашаем на свадьбу</h2>
+				<p class="invitation__text _big animate__animated">Мы счастливы сообщить Вам о том, что 5 августа 2023 года состоится торжество, посвященное нашему бракосочетанию. С огромным удовольствием приглашаем Вас разделить с нами этот волнующий праздник - нашу свадьюу! С благодарностью и уважением, Андрей и Вероника.</p>
+				<div class="invitation__info animate__animated">
+					<div class="invitation__item">
+						<img src="img/i_date.png" alt="" class="invitation__icon">
+						<p class="invitation__text _bold">5 Августа 2023 в 12:00</p>
+					</div>
+					<div class="invitation__item">
+						<img src="img/i_place.png" alt="" class="invitation__icon">
+						<p class="invitation__text _bold">г. Кострома, Высоковская 27</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="shedule" id="section-shedule">
+		<div class="container">
+			<h2 class="shedule__h2 animate__animated">Расписание</h2>
+			<p class="shedule__subtitle animate__animated">Тут находится информация о мероприятии</p>
+			<img src="img/im_timeline.png" alt="" class="shedule__timeline animate__animated">
+			<div class="shedule__item animate__animated">
+				<p class="shedule__time">12:00</p>
+				<p class="shedule__text">Церемония венчания в главном зале здания церкви</p>
+			</div>
+			<div class="shedule__item animate__animated">
+				<p class="shedule__time">13:00</p>
+				<p class="shedule__text">Прогулка по городу. Фотосессия жениха и невесты</p>
+			</div>
+			<div class="shedule__item animate__animated">	
+				<p class="shedule__time">15:00</p>
+				<p class="shedule__text">Свадебный банкет в помещении церкви</p>
+			</div>
+			<div class="shedule__item animate__animated">
+				<p class="shedule__time">18:00</p>
+				<p class="shedule__text">Завершение торжества</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="gifts" id="section-gifts">
+		<div class="container">
+			<div class="gifts__image animate__animated">
+				<img src="img/im_gifts.png" alt="" class="gifts__img">
+			</div>
+			<div class="gifts__content">
+				<h2 class="gifts__h2 animate__animated">О подарках</h2>
+				<p class="gifts__text animate__animated">Дорогие друзья, если вы желаете поздравить нас по случаю праздника, не обременяйте себя долгим и утомительным поиском подарка. Мы будем благодарны вашим теплым словам и любому вкладу в бюджет нашей молодой семьи.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="dress-code" id="section-dress">
+		<div class="container">
+			<h2 class="dress-code__h2 animate__animated">Дресс-код</h2>
+			<p class="dress-code__text animate__animated">Мы будем рады, если Вы поддержите цветовую гамму нашего свадебного торжества</p>
+			<div class="dress-code__colors animate__animated">
+				<div class="dress-code__color _pink"></div>
+				<div class="dress-code__color _beige"></div>
+				<div class="dress-code__color _grey"></div>
+				<div class="dress-code__color black"></div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer animate__animated">
+		<div class="container">
+			<div class="footer__content">
+				<h2 class="footer__h2 animate__animated">Контакты</h2>
+				<p class="footer__text animate__animated">Если Вы хотите уточнить информацию по празднику или Вы приезжаете раньше и Вам нужно расселение, если Вы готовите поздравление, которое нужно вносить в программу праздника, Вы можете обратиться к организатору:
+				<br><a href="tel:79536616819" class="footer__link">8 953 (661) 68-19</a> (Полина)</p>
+			</div>
+			<div class="footer__image animate__animated">
+				<img src="img/im_contact.png" alt="" class="footer__img">
+			</div>
+		</div>
+	</footer>
+
+	<div class="scripts">
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/script.js"></script>
+	</div>
+
+</body>
+
+</html>
+
